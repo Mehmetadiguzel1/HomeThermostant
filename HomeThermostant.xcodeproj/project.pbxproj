@@ -11,6 +11,8 @@
 		868371992817876600789DA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868371982817876600789DA9 /* ContentView.swift */; };
 		8683719B2817876600789DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8683719A2817876600789DA9 /* Assets.xcassets */; };
 		8683719E2817876600789DA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8683719D2817876600789DA9 /* Preview Assets.xcassets */; };
+		868371A5281790AB00789DA9 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868371A4281790AB00789DA9 /* Extension.swift */; };
+		868371A7281792C600789DA9 /* ClimateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868371A6281792C600789DA9 /* ClimateCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		868371982817876600789DA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8683719A2817876600789DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8683719D2817876600789DA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		868371A4281790AB00789DA9 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		868371A6281792C600789DA9 /* ClimateCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				868371962817876600789DA9 /* HomeThermostantApp.swift */,
 				868371982817876600789DA9 /* ContentView.swift */,
+				868371A6281792C600789DA9 /* ClimateCard.swift */,
+				868371A4281790AB00789DA9 /* Extension.swift */,
 				8683719A2817876600789DA9 /* Assets.xcassets */,
 				8683719C2817876600789DA9 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				868371A5281790AB00789DA9 /* Extension.swift in Sources */,
+				868371A7281792C600789DA9 /* ClimateCard.swift in Sources */,
 				868371992817876600789DA9 /* ContentView.swift in Sources */,
 				868371972817876600789DA9 /* HomeThermostantApp.swift in Sources */,
 			);
